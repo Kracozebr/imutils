@@ -62,7 +62,8 @@ def visualize_facial_landmarks(image, shape, colors=None, alpha=0.75):
 	# if the colors list is None, initialize it with a unique
 	# color for each facial landmark region
 	if colors is None:
-		colors = [(19, 199, 109), (79, 76, 240), (230, 159, 23),
+		colors = [(19, 199, 109), (31, 47, 0), 
+			(79, 76, 240), (230, 159, 23),
 			(168, 100, 168), (158, 163, 32),
 			(163, 38, 32), (180, 42, 220)]
 
